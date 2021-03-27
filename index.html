@@ -14,18 +14,19 @@
         <p>It's free and only takes a minute</p>
 
         <form action="onClick" autocomplete="on">
-            <label for="name"> Username
-            <input type="text" name="name" id="name" required maxlength="20">
-            </label>
+            <div id="block">
+                <label for="name"> Username
+                <input type="text" name="name" id="name" required maxlength="20">
+                </label>
 
-            <label for="email"> Email
-            <input type="email" name="email" id="email" required>
-            </label>
+                <label for="email"> Email
+                <input type="email" name="email" id="email" required>
+                </label>
 
-            <label for="textarea"> Comment <br>
-            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Type your comment here…" maxlength="250"></textarea>
-            </label>
-
+                <label for="textarea"> Comment <br>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Type your comment here…" maxlength="250"></textarea>
+                </label>
+            </div>
             <h4>What is your overall opinion about this article?</h4>
             
             <input type="radio" name="radio-input" id="positive" value="positive">
