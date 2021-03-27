@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <div id="container">
+        <form action="onClick" autocomplete="on">
+
+            <h1>Submit Your Feedback</h1>
+            <p>It's free and only takes a minute</p>
+
+            <label for="name"> Username
+            <input type="text" name="name" id="name" required maxlength="20">
+            </label>
+
+            <label for="email"> Email
+            <input type="email" name="email" id="email" required>
+            </label>
+
+            <label for="textarea"> Comment
+            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Type your comment here…" maxlength="250"></textarea>
+            </label>
+
+            <h4>What is your overall opinion about this article?</h4>
+            
+            <input type="radio" name="radio-input" id="positive" value="positive">
+            <label for="radio">Positive</label>
+            <input type="radio" name="radio-input" id="negative" value="negative">
+            <label for="radio">Negative</label>
+            <input type="radio" name="radio-input" id="neutral" value="neutral">   
+            <label for="radio">Neutral</label>
+            
+            <label for="newsletter">
+                <input type="checkbox" id="checkbox" checked>
+            </label> I want to subscribe to the newsletter
+
+            <button> Send </button>
+        </form>
+    </div>    
+</body>
+</html>
