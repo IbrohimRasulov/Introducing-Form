@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Feedback Form</title>
 </head>
 <body>
     <div id="container">
+        
+        <h1>Feedback Form</h1>
+        <p>It's free and only takes a minute</p>
+
         <form action="onClick" autocomplete="on">
-
-            <h1>Submit Your Feedback</h1>
-            <p>It's free and only takes a minute</p>
-
             <label for="name"> Username
             <input type="text" name="name" id="name" required maxlength="20">
             </label>
@@ -21,7 +22,7 @@
             <input type="email" name="email" id="email" required>
             </label>
 
-            <label for="textarea"> Comment
+            <label for="textarea"> Comment <br>
             <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Type your comment here…" maxlength="250"></textarea>
             </label>
 
@@ -31,7 +32,7 @@
             <label for="radio">Positive</label>
             <input type="radio" name="radio-input" id="negative" value="negative">
             <label for="radio">Negative</label>
-            <input type="radio" name="radio-input" id="neutral" value="neutral">   
+            <input type="radio" name="radio-input" id="neutral" value="neutral">
             <label for="radio">Neutral</label>
             
             <label for="newsletter">
@@ -40,6 +41,6 @@
 
             <button> Send </button>
         </form>
-    </div>    
+    </div>
 </body>
 </html>

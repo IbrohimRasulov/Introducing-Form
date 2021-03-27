@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #555;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 20px;
+  display: block;
+}
+
+#container {
+  width: 30%;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 20px;
+
+}
+
+#container h1 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#container p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.radio {
+    
+}
+
+form {
+    padding: 25px;
+}
