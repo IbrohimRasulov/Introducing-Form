@@ -15,19 +15,19 @@
 
         <form action="onClick" autocomplete="on">
             <div id="block">
-                <label> Username
+                <label> Username <span class="must-fill">*</span>
                 <input type="text" name="name" id="name" required maxlength="20">
                 </label>
 
-                <label> Email
+                <label> Email <span class="must-fill">*</span>
                 <input type="email" name="email" id="email" required>
                 </label>
 
-                <label> Comment <br>
+                <label> Comment <span id="optional">(Optional)</span><br>
                 <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Type your comment here…" maxlength="250"></textarea>
                 </label>
             </div>
-            <h4>What is your overall opinion about this article?</h4>
+            <p>What is your overall opinion about this article?</p>
             
             <input type="radio" name="radio-input" id="positive" value="positive">
             <label for="positive">Positive</label>

@@ -1,3 +1,5 @@
+/* Pre style */
+
 * {
   margin: 0;
   padding: 0;
@@ -7,42 +9,71 @@
   color: #555;
 }
 
+.clr {
+  clear: both;
+}
+
 body {
-    background-color: cadetblue;
+  background-color: cadetblue;
+}
+
+/* Form style */
+
+#block label {
+  font-size: 20px;
+}
+
+label {
+  padding: 10px 0 10px 0;
 }
 
 #block input {
   border: 1px solid #ddd;
   border-radius: 5px;
   height: 30px;
-  font-size: 20px;
+  font-size: 15px;
   display: block;
+  width: 100%;
+  margin: 10px 0 20px 0;
+  padding-left: 10px;
 }
 
 #container {
-  width: 30%;
+  width: 27%;
   margin: 50px auto;
   background-color: #fff;
   border-radius: 20px;
-
 }
 
 #container h1 {
-    font-size: 35px;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 #container p {
-    text-align: center;
-    font-size: 14px;
-}
-
-.radio {
-    
+  text-align: center;
+  font-size: 14px;
 }
 
 form {
-    padding: 25px;
+  padding: 25px;
+}
+
+textarea {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0 20px 0;
+  font-size: 15px;
+}
+
+#optional {
+  font-size: 14px;
+}
+
+.must-fill {
+  color: rgb(247, 2, 2);
 }
