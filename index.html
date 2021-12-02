@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <div id="container">
+        
+        <h1>Feedback Form</h1>
+        <p>It's free and only takes a minute</p>
+
+        <form action="onClick" autocomplete="on">
+            <div id="block">
+                <label> Username <span class="must-fill">*</span>
+                <input type="text" name="name" id="name" required maxlength="20">
+                </label>
+
+                <label> Email <span class="must-fill">*</span>
+                <input type="email" name="email" id="email" required>
+                </label>
+
+                <label> Comment <span id="optional">(Optional)</span><br>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Type your comment here…" maxlength="250"></textarea>
+                </label>
+            </div>
+            <p>What is your overall opinion about this article?</p>
+            
+            <input type="radio" name="radio-input" id="positive" value="positive">
+            <label for="positive">Positive</label>
+            <input type="radio" name="radio-input" id="negative" value="negative">
+            <label for="negative">Negative</label>
+            <input type="radio" name="radio-input" id="neutral" value="neutral">
+            <label for="neutral">Neutral</label>
+            
+            <label>
+                <input type="checkbox" id="checkbox" checked>
+            </label> I want to subscribe to the newsletter
+
+            <button> Send </button>
+        </form>
+    </div>
+</body>
+</html>
