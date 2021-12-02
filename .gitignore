@@ -1,4 +1,7 @@
-node_modules
+# .gitignore
+node_modules/
+.DS_Store
 .hintrc
-package-lock.json
 .stylelintrc.json
+package.json
+package-lock.json
