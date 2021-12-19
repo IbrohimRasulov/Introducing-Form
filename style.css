@@ -40,7 +40,7 @@ label {
 
 #container {
   width: 27%;
-  margin: 50px auto;
+  margin: 30px auto;
   background-color: #fff;
   border-radius: 20px;
 }
@@ -79,7 +79,7 @@ textarea {
 }
 
 #opinion p {
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   padding-bottom: 10px;
 }
@@ -90,20 +90,20 @@ textarea {
 #news label,
 button {
   cursor: pointer;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 #news {
-  margin: 25px 0;
+  margin: 20px 0;
+  font-size: 0.9em;
 }
 
 button {
   display: inline-block;
-  padding: 5px 10px;
-  font-size: 25px;
+  padding: 5px;
+  font-size: 20px;
   border-radius: 5px;
   width: 100%;
-  margin: 0 auto;
 }
 
 button:hover {
