@@ -18,13 +18,13 @@ body {
 }
 
 /* Form style */
+label {
+  padding: 10px 0 10px 0;
+}
+
 
 #block label {
   font-size: 20px;
-}
-
-label {
-  padding: 10px 0 10px 0;
 }
 
 #block input {
