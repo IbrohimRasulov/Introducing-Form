@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: cadetblue;
+  background-color: #1a3252;
 }
 
 /* Form style */
@@ -76,4 +76,37 @@ textarea {
 
 .must-fill {
   color: rgb(247, 2, 2);
+}
+
+#opinion p {
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+#opinion input,
+#opinion label,
+#news input,
+#news label,
+button {
+  cursor: pointer;
+  padding-right: 30px;
+}
+
+#news {
+  margin: 25px 0;
+}
+
+button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 25px;
+  border-radius: 5px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: rgb(28, 138, 43);
+  color: white;
 }

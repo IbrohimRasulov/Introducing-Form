@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="container">
-        
+
         <h1>Feedback Form</h1>
         <p>It's free and only takes a minute</p>
 
@@ -27,20 +27,23 @@
                 <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Type your comment here…" maxlength="250"></textarea>
                 </label>
             </div>
-            <p>What is your overall opinion about this article?</p>
-            
-            <input type="radio" name="radio-input" id="positive" value="positive">
-            <label for="positive">Positive</label>
-            <input type="radio" name="radio-input" id="negative" value="negative">
-            <label for="negative">Negative</label>
-            <input type="radio" name="radio-input" id="neutral" value="neutral">
-            <label for="neutral">Neutral</label>
-            
-            <label>
-                <input type="checkbox" id="checkbox" checked>
-            </label> I want to subscribe to the newsletter
 
-            <button> Send </button>
+            <div id="opinion">
+                <p>What is your overall opinion about this article?</p>
+                <input type="radio" name="radio-input" id="positive" value="positive">
+                <label for="positive">Positive</label>
+                <input type="radio" name="radio-input" id="negative" value="negative">
+                <label for="negative">Negative</label>
+                <input type="radio" name="radio-input" id="neutral" value="neutral">
+                <label for="neutral">Neutral</label>
+            </div>
+
+            <div id="news">
+                <input type="checkbox" id="checkbox" checked>
+                <label for="checkbox"> I want to subscribe to the newsletter</label>
+            </div>
+
+            <button>Send</button>
         </form>
     </div>
 </body>
