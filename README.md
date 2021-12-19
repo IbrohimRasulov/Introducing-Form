@@ -2,11 +2,9 @@
 
 # Submit form
 
-> This is a sample submission form style.
+> This is a sample review form.
 
 ![screenshot](./app_screenshot.png)
-
-> I build this project with [The Net Ninja](https://youtu.be/HiHHvTcHiEk), and we changed default form styles making it more user friendly and interesting. Form page is fully responsive for all kind of devices.
 
 ## Built With
 
@@ -16,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://ibrohimrasulov.github.io/Form-with-Net-Ninja/)
+[Live Demo Link](https://ibrohimrasulov.github.io/Introducing-Form/)
 
 ### Run tests
 
